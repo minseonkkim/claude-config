@@ -1,0 +1,13 @@
+{
+  "$comment": "Merge these blocks into <project>/package.json, then run `npm install`. The `scripts` entries are convenience aliases; the SessionStart hook calls `node scripts/...` directly, so they work even without these aliases.",
+  "scripts": {
+    "sync:docs": "node scripts/sync-docs.mjs",
+    "sync:docs:force": "node scripts/sync-docs.mjs --force",
+    "sync:api": "node scripts/sync-api-docs.mjs",
+    "sync:notion": "node scripts/sync-notion-docs.mjs"
+  },
+  "devDependencies": {
+    "notion-client": "^7.10.0",
+    "notion-utils": "^7.10.0"
+  }
+}

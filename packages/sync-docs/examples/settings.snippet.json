@@ -1,0 +1,16 @@
+{
+  "$comment": "Merge this hooks block into <project>/.claude/settings.local.json. If the file already has a `hooks` key, merge by appending to hooks.SessionStart[].hooks[].",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node scripts/sync-docs-hook.mjs",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

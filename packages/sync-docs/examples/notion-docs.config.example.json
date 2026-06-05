@@ -1,0 +1,7 @@
+{
+  "$comment": "Template. Copy to scripts/notion-docs.config.json. Pages must be PUBLIC (published to web) - no token is used. pageId = the 32-hex id in the page URL (open the row/page in Notion, Copy link). output = filename written under .claude/docs/.",
+  "pages": [
+    { "pageId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "output": "구독 관리 화면.md" },
+    { "pageId": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy", "output": "결제 화면.md" }
+  ]
+}
